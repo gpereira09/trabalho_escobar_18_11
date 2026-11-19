@@ -1,0 +1,9 @@
+modelo,acuracia_validacao_cruzada,desvio_validacao_cruzada,acuracia_teste,balanceamento,melhores_parametros
+KNN,0.775,0.068,0.7326,não,"{'n_neighbors': 7, 'weights': 'uniform'}"
+Árvore de Decisão,0.775,0.0783,0.6977,não,"{'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 1}"
+Gradient Boosting,0.775,0.0783,0.6977,não,"{'learning_rate': 0.01, 'max_depth': 2, 'n_estimators': 100}"
+Random Forest,0.775,0.0814,0.7093,não,"{'max_depth': 3, 'min_samples_leaf': 5, 'n_estimators': 300}"
+Rede Neural (MLP),0.76,0.0539,0.7326,não,"{'alpha': 0.01, 'hidden_layer_sizes': (5,)}"
+SVM,0.75,0.0592,0.7326,não,"{'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}"
+Naive Bayes,0.73,0.1054,0.6395,não,{'var_smoothing': 1e-09}
+Regressão Logística,0.72,0.0678,0.6628,SMOTE,{'C': 0.01}
